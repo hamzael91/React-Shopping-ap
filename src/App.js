@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <ShopContextProvider>
-        <Router>
+        <Router basename="/React-Shopping-ap">
           <Navbar />
           <Routes>
             <Route path="/" element={<Shop />} />
